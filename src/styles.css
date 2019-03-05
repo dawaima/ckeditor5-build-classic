@@ -1,0 +1,39 @@
+.wrs_modal_close_button {
+  background-image: url("icons/close_icon.png") !important;
+}
+
+.wrs_modal_close_button:hover {
+  background-image: url("icons/close_icon_h.png") !important;
+}
+
+.wrs_modal_minimize_button {
+  background-image: url("icons/min_icon.png") !important;
+}
+
+.wrs_modal_minimize_button:hover {
+  background-image: url("icons/min_icon_h.png") !important;
+}
+
+.wrs_modal_minimize_button.wrs_minimized {
+  background-image: url("icons/max_icon.png") !important;
+}
+
+.wrs_modal_minimize_button.wrs_minimized:hover {
+  background-image: url("icons/max_icon_h.png") !important;
+}
+
+.wrs_modal_stack_button {
+  background-image: url("icons/mins_icon.png") !important;
+}
+
+.wrs_modal_stack_button:hover {
+  background-image: url("icons/mins_icon_h.png") !important;
+}
+
+.wrs_modal_maximize_button {
+  background-image: url("icons/fulls_icon.png") !important;
+}
+
+.wrs_modal_maximize_button:hover {
+  background-image: url("icons/fulls_icon_h.png") !important;
+}
