@@ -32,10 +32,10 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import MathType from '@wiris/mathtype-ckeditor5/src/plugin';
 import './styles.css';
 
-function importAll( r ) {
-	return r.keys().map( r );
-}
-const images = importAll( require.context( './icons', false, /\.(png|jpe?g|svg)$/ ) );
+// function importAll( r ) {
+// 	return r.keys().map( r );
+// }
+// const images = importAll( require.context( './icons', false, /\.(png|jpe?g|svg)$/ ) );
 
 export default class ClassicEditor extends ClassicEditorBase { }
 
