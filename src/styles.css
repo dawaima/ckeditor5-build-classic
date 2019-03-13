@@ -1,4 +1,4 @@
-/* .wrs_modal_close_button {
+.wrs_modal_close_button {
   background-image: url("icons/close_icon.png") !important;
 }
 
@@ -36,4 +36,7 @@
 
 .wrs_modal_maximize_button:hover {
   background-image: url("icons/fulls_icon_h.png") !important;
-} */
+}
+button.test-btn{
+  background-color: aqua
+}
