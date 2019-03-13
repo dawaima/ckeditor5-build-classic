@@ -17,8 +17,6 @@ import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
 import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
-
-
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
@@ -49,9 +47,6 @@ import './styles.css';
 // const images = importAll( require.context( './icons', false, /\.(png|jpe?g|svg)$/ ) );
 
 export default class ClassicEditor extends ClassicEditorBase { }
-
-
-
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
